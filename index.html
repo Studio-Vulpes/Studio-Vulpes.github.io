@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Studio Vulpes</title>
+    <link href="styles/mainstyles.css?v=1" rel="stylesheet" type="text/css" />
+    <!--Image Roll Over Script -->
+    <script type="text/javascript">
+      function MM_swapImgRestore() {
+        //v3.0
+        var i,
+          x,
+          a = document.MM_sr;
+        for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+      }
+      function MM_preloadImages() {
+        //v3.0
+        var d = document;
+        if (d.images) {
+          if (!d.MM_p) d.MM_p = new Array();
+          var i,
+            j = d.MM_p.length,
+            a = MM_preloadImages.arguments;
+          for (i = 0; i < a.length; i++)
+            if (a[i].indexOf('#') != 0) {
+              d.MM_p[j] = new Image();
+              d.MM_p[j++].src = a[i];
+            }
+        }
+      }
+
+      function MM_findObj(n, d) {
+        //v4.01
+        var p, i, x;
+        if (!d) d = document;
+        if ((p = n.indexOf('?')) > 0 && parent.frames.length) {
+          d = parent.frames[n.substring(p + 1)].document;
+          n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n];
+        for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+        if (!x && d.getElementById) x = d.getElementById(n);
+        return x;
+      }
+
+      function MM_swapImage() {
+        //v3.0
+        var i,
+          j = 0,
+          x,
+          a = MM_swapImage.arguments;
+        document.MM_sr = new Array();
+        for (i = 0; i < a.length - 2; i += 3)
+          if ((x = MM_findObj(a[i])) != null) {
+            document.MM_sr[j++] = x;
+            if (!x.oSrc) x.oSrc = x.src;
+            x.src = a[i + 2];
+          }
+      }
+    </script>
+
+    <!--Lightbox Script-->
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+
+  <body
+    onload="MM_preloadImages('images/navbar/ourwork-hover.png','images/navbar/services-hover.png','images/navbar/news-hover.png','images/navbar/contact-hover.png','images/navbar/aboutus-hover.png','images/navbar/home-hover.png','images/homefeatures/photos/rogue/3.png','images/homefeatures/photos/allin/20.png')"
+  >
+    <!-- Initalize Lightbox-->
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function () {
+        $("a[rel^='prettyPhoto']").prettyPhoto({
+          social_tools: 'html',
+        });
+      });
+    </script>
+
+    <div id="header-wrapper">
+      <div id="header" style="display: flex; align-items: center">
+        <a href="index.html"><img src="images/header-studio.png" alt="Studio Vulpes" /></a>
+      </div>
+    </div>
+    <!--Main Content Area -->
+    <div id="maincontent-wrapper">
+      <!-- <h2>News</h2>
+      <h3>New Developments</h3>
+      <p>The newest short film from Studio Vulpes: Final Moments is now available for viewing!</p>
+      <p>We just finished and launched Episode 02 of Web Series: "Modus Operandi"!</p>
+      <p>
+        We teamed up with a new crew from Grand Rapids and just finished production for a project entitled "Final
+        Moments". Final Moments is a short featuring a soon-to-be-married couple held captive by terrorists with no
+        means of escape. Will they make it out alive? Will they live happily ever after? Stay tuned!
+        <br />
+        <a href="productionphotos.html" title="Check out the Production Photos!">Check out the Production Photos!</a>
+      </p>
+
+      <h3>Cast/Crew Call</h3>
+      <p>
+        Studio Vulpes is looking to expand the scope of its projects and also team up with other film enthusiasts in the
+        West Michigan area. If you are a cast/crew member looking for work or a fellow film-maker looking to rent
+        equipment, find cast/crew, or hire post-production services (editing, sound editing, color grading, and more),
+        feel free to
+        <a href="contact.html" title="Contact Us">Contact Us</a>.
+      </p>
+
+      <h3>Web Series</h3>
+      <p>
+        Studio Vulpes is currently shooting an 8-episode Web Series: "Modus Operandi". There are currently two episodes
+        available on the web and more to come!
+      </p>
+
+      <hr /> -->
+      <div class="film-container">
+        <img src="images/homefeatures/photos/cocktail/1.png" alt="Final Moments" style="max-width: 940px" />
+        <div class="divFeatureTitle">
+          <h3>Cocktail</h3>
+          <p>Directed by: Ryan Woodcox and Nicholas Leja</p>
+          <p>Starring: Ryan Woodcox</p>
+          <p>
+            <a href="https://www.youtube.com/watch?v=JXH1tJCPh-A" rel="prettyPhoto" title="Watch Cocktail">
+              <img src="images/homefeatures/launchvideo.png" class="launch" width="125" height="14" alt="Cocktail"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="film-container">
+        <img src="images/homefeatures/photos/final_moments/1.png" alt="Final Moments" />
+        <div class="divFeatureTitle">
+          <h3>Final Moments</h3>
+          <p>Directed by: Nicholas Leja and Ryan Woodcox</p>
+          <p>Starring: Ryan Woodcox and Diane Dehn</p>
+          <p>
+            <a href="https://www.youtube.com/watch?v=-TvUAOI9_1w" rel="prettyPhoto" title="Watch Final Moments">
+              <img src="images/homefeatures/launchvideo.png" class="launch" width="125" height="14" alt="Final Moments"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="film-container">
+        <img src="images/homefeatures/photos/mo_02_thehandler/5.png" alt="Modus Operandi Episode 02: The Handler" />
+        <div class="divFeatureTitle">
+          <h3>Modus Operandi Episode 02: The Handler</h3>
+          <p>Directed by: Ryan Woodcox</p>
+          <p>Starring: Nicholas Leja and Ryan Woodcox</p>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=b_llpEY8niE"
+              rel="prettyPhoto"
+              title="Watch Modus Operandi Episode 02: The Handler"
+            >
+              <img
+                src="images/homefeatures/launchvideo.png"
+                class="launch"
+                width="125"
+                height="14"
+                alt="Modus Operandi Episode 02: The Handler"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="film-container">
+        <img src="images/homefeatures/photos/mo_01_alex/8.png" alt="Modus Operandi Episode 01: Alex" />
+        <div class="divFeatureTitle">
+          <h3>Modus Operandi Episode 01: Alex</h3>
+          <p>Directed by: Ryan Woodcox</p>
+          <p>Starring: Nicholas Leja and Collin Moerman</p>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=EXAKMo204Gk"
+              rel="prettyPhoto"
+              title="Watch Modus Operandi Episode 01: Alex"
+            >
+              <img
+                src="images/homefeatures/launchvideo.png"
+                class="launch"
+                width="125"
+                height="14"
+                alt="Modus Operandi Episode 01: Alex"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <br />
+    </div>
+    <div id="footer">&copy; 2023 Studio Vulpes</div>
+  </body>
+</html>

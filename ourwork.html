@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Studio Vulpes - Our Work</title>
+    <link href="styles/mainstyles.css" rel="stylesheet" type="text/css" />
+    <!--Image Roll Over Script -->
+    <script type="text/javascript">
+      function MM_swapImgRestore() {
+        //v3.0
+        var i,
+          x,
+          a = document.MM_sr;
+        for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+      }
+      function MM_preloadImages() {
+        //v3.0
+        var d = document;
+        if (d.images) {
+          if (!d.MM_p) d.MM_p = new Array();
+          var i,
+            j = d.MM_p.length,
+            a = MM_preloadImages.arguments;
+          for (i = 0; i < a.length; i++)
+            if (a[i].indexOf('#') != 0) {
+              d.MM_p[j] = new Image();
+              d.MM_p[j++].src = a[i];
+            }
+        }
+      }
+
+      function MM_findObj(n, d) {
+        //v4.01
+        var p, i, x;
+        if (!d) d = document;
+        if ((p = n.indexOf('?')) > 0 && parent.frames.length) {
+          d = parent.frames[n.substring(p + 1)].document;
+          n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n];
+        for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+        if (!x && d.getElementById) x = d.getElementById(n);
+        return x;
+      }
+
+      function MM_swapImage() {
+        //v3.0
+        var i,
+          j = 0,
+          x,
+          a = MM_swapImage.arguments;
+        document.MM_sr = new Array();
+        for (i = 0; i < a.length - 2; i += 3)
+          if ((x = MM_findObj(a[i])) != null) {
+            document.MM_sr[j++] = x;
+            if (!x.oSrc) x.oSrc = x.src;
+            x.src = a[i + 2];
+          }
+      }
+    </script>
+
+    <!--Random Image Script Rogue-->
+    <script language="JavaScript">
+      // Set up the image files to be used.
+      var RogueImages = new Array(); // do not change this
+      // To add more image files, continue with the
+      // pattern below, adding to the array.
+
+      RogueImages[0] = 'images/homefeatures/photos/rogue/2.png';
+      RogueImages[1] = 'images/homefeatures/photos/rogue/3.png';
+      RogueImages[2] = 'images/homefeatures/photos/rogue/4.png';
+      RogueImages[3] = 'images/homefeatures/photos/rogue/5.png';
+      RogueImages[4] = 'images/homefeatures/photos/rogue/6.png';
+      RogueImages[5] = 'images/homefeatures/photos/rogue/7.png';
+      RogueImages[6] = 'images/homefeatures/photos/rogue/8.png';
+
+      // do not edit anything below this line
+
+      var j = 0;
+      var p = RogueImages.length;
+      var preBuffer = new Array();
+      for (i = 0; i < p; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = RogueImages[i];
+      }
+      var whichImageRogue = Math.round(Math.random() * (p - 1));
+      function showImageRogue() {
+        document.write('<img src="' + RogueImages[whichImageRogue] + '">');
+      }
+    </script>
+
+    <!--Random Image Script All In -->
+    <script language="JavaScript">
+      // Set up the image files to be used.
+      var allinImages = new Array(); // do not change this
+      // To add more image files, continue with the
+      // pattern below, adding to the array.
+
+      allinImages[0] = 'images/homefeatures/photos/allin/3.png';
+      allinImages[1] = 'images/homefeatures/photos/allin/8.png';
+      allinImages[2] = 'images/homefeatures/photos/allin/9.png';
+      allinImages[3] = 'images/homefeatures/photos/allin/12.png';
+      allinImages[4] = 'images/homefeatures/photos/allin/15.png';
+      allinImages[5] = 'images/homefeatures/photos/allin/20.png';
+      allinImages[6] = 'images/homefeatures/photos/allin/24.png';
+
+      // do not edit anything below this line
+
+      var j = 0;
+      var p = allinImages.length;
+      var preBuffer = new Array();
+      for (i = 0; i < p; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = allinImages[i];
+      }
+      var whichImageallin = Math.round(Math.random() * (p - 1));
+      function showImageallin() {
+        document.write('<img src="' + allinImages[whichImageallin] + '">');
+      }
+    </script>
+
+    <!--Random Image Script Silence -->
+    <script language="JavaScript">
+      // Set up the image files to be used.
+      var silenceImages = new Array(); // do not change this
+      // To add more image files, continue with the
+      // pattern below, adding to the array.
+
+      silenceImages[0] = 'images/homefeatures/photos/silence/silence_1.png';
+      silenceImages[1] = 'images/homefeatures/photos/silence/silence_2.png';
+      silenceImages[2] = 'images/homefeatures/photos/silence/silence_3.png';
+      silenceImages[3] = 'images/homefeatures/photos/silence/silence_4.png';
+
+      // do not edit anything below this line
+      var j = 0;
+      var p = silenceImages.length;
+      var preBuffer = new Array();
+      for (i = 0; i < p; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = silenceImages[i];
+      }
+      var whichImagesilence = Math.round(Math.random() * (p - 1));
+      function showImagesilence() {
+        document.write('<img src="' + silenceImages[whichImagesilence] + '">');
+      }
+    </script>
+
+    <!--Random Image Script Sensation -->
+    <script language="JavaScript">
+      // Set up the image files to be used.
+      var sensationImages = new Array(); // do not change this
+      // To add more image files, continue with the
+      // pattern below, adding to the array.
+
+      sensationImages[0] = 'images/homefeatures/photos/sensation/sensation_1.png';
+      sensationImages[1] = 'images/homefeatures/photos/sensation/sensation_2.png';
+      sensationImages[2] = 'images/homefeatures/photos/sensation/sensation_3.png';
+      sensationImages[3] = 'images/homefeatures/photos/sensation/sensation_4.png';
+
+      // do not edit anything below this line
+
+      var j = 0;
+      var p = sensationImages.length;
+      var preBuffer = new Array();
+      for (i = 0; i < p; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = sensationImages[i];
+      }
+      var whichImagesensation = Math.round(Math.random() * (p - 1));
+      function showImagesensation() {
+        document.write('<img src="' + sensationImages[whichImagesensation] + '">');
+      }
+    </script>
+
+    <!--Random Image Script MO_01 -->
+    <script language="JavaScript">
+      // Set up the image files to be used.
+      var mo_01Images = new Array(); // do not change this
+      // To add more image files, continue with the
+      // pattern below, adding to the array.
+
+      mo_01Images[0] = 'images/homefeatures/photos/mo_01_alex/1.png';
+      mo_01Images[1] = 'images/homefeatures/photos/mo_01_alex/2.png';
+      mo_01Images[2] = 'images/homefeatures/photos/mo_01_alex/3.png';
+      mo_01Images[3] = 'images/homefeatures/photos/mo_01_alex/4.png';
+      mo_01Images[4] = 'images/homefeatures/photos/mo_01_alex/5.png';
+      mo_01Images[5] = 'images/homefeatures/photos/mo_01_alex/6.png';
+      mo_01Images[6] = 'images/homefeatures/photos/mo_01_alex/7.png';
+      mo_01Images[7] = 'images/homefeatures/photos/mo_01_alex/8.png';
+
+      // do not edit anything below this line
+
+      var j = 0;
+      var p = mo_01Images.length;
+      var preBuffer = new Array();
+      for (i = 0; i < p; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = mo_01Images[i];
+      }
+      var whichImageMO_01 = Math.round(Math.random() * (p - 1));
+      function showImageMO_01() {
+        document.write('<img src="' + mo_01Images[whichImageMO_01] + '">');
+      }
+    </script>
+
+    <!--Random Image Script MO_02 -->
+    <script language="JavaScript">
+      // Set up the image files to be used.
+      var mo_02Images = new Array(); // do not change this
+      // To add more image files, continue with the
+      // pattern below, adding to the array.
+
+      mo_02Images[0] = 'images/homefeatures/photos/mo_02_thehandler/1.png';
+      mo_02Images[1] = 'images/homefeatures/photos/mo_02_thehandler/2.png';
+      mo_02Images[2] = 'images/homefeatures/photos/mo_02_thehandler/3.png';
+      mo_02Images[3] = 'images/homefeatures/photos/mo_02_thehandler/4.png';
+      mo_02Images[4] = 'images/homefeatures/photos/mo_02_thehandler/5.png';
+      mo_02Images[5] = 'images/homefeatures/photos/mo_02_thehandler/6.png';
+      mo_02Images[6] = 'images/homefeatures/photos/mo_02_thehandler/7.png';
+      mo_02Images[7] = 'images/homefeatures/photos/mo_02_thehandler/8.png';
+      mo_02Images[8] = 'images/homefeatures/photos/mo_02_thehandler/9.png';
+
+      // do not edit anything below this line
+
+      var j = 0;
+      var p = mo_02Images.length;
+      var preBuffer = new Array();
+      for (i = 0; i < p; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = mo_02Images[i];
+      }
+      var whichImageMO_02 = Math.round(Math.random() * (p - 1));
+      function showImageMO_02() {
+        document.write('<img src="' + mo_02Images[whichImageMO_02] + '">');
+      }
+    </script>
+
+    <!--Random Image Script FinalMoments -->
+    <script language="JavaScript">
+      // Set up the image files to be used.
+      var finalMomentsImages = new Array(); // do not change this
+      // To add more image files, continue with the
+      // pattern below, adding to the array.
+
+      finalMomentsImages[0] = 'images/homefeatures/photos/final_moments/1.png';
+      finalMomentsImages[1] = 'images/homefeatures/photos/final_moments/2.png';
+      finalMomentsImages[2] = 'images/homefeatures/photos/final_moments/3.png';
+      finalMomentsImages[3] = 'images/homefeatures/photos/final_moments/4.png';
+      finalMomentsImages[4] = 'images/homefeatures/photos/final_moments/5.png';
+      finalMomentsImages[5] = 'images/homefeatures/photos/final_moments/6.png';
+      finalMomentsImages[6] = 'images/homefeatures/photos/final_moments/7.png';
+      finalMomentsImages[7] = 'images/homefeatures/photos/final_moments/8.png';
+
+      // do not edit anything below this line
+
+      var j = 0;
+      var p = finalMomentsImages.length;
+      var preBuffer = new Array();
+      for (i = 0; i < p; i++) {
+        preBuffer[i] = new Image();
+        preBuffer[i].src = mo_02Images[i];
+      }
+      var whichImageFinalMoments = Math.round(Math.random() * (p - 1));
+      function showImageFinalMoments() {
+        document.write('<img src="' + finalMomentsImages[whichImageFinalMoments] + '">');
+      }
+    </script>
+
+    <!--Lightbox Script-->
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+
+  <body
+    onload="MM_preloadImages('images/navbar/ourwork-hover.png','images/navbar/services-hover.png','images/navbar/news-hover.png','images/navbar/contact-hover.png','images/navbar/aboutus-hover.png','images/navbar/home-hover.png')"
+  >
+    <!-- Initalize Lightbox-->
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function () {
+        $("a[rel^='prettyPhoto']").prettyPhoto({
+          social_tools: 'html',
+        });
+      });
+    </script>
+
+    <div id="header-wrapper">
+      <div id="header">
+        <a href="index.html"><img src="images/header-studio.png" alt="Studio Vulpes" /></a>
+
+        <!--Navigation Bar -->
+        <div style="display: flex; justify-content: space-between; align-items: center">
+          <a
+            href="index.html"
+            onmouseout="MM_swapImgRestore()"
+            onmouseover="MM_swapImage('Home','','images/navbar/home-hover.png',1)"
+            ><img src="images/navbar/home.png" alt="Home" name="Home" width="60" height="19" border="0" id="Home"
+          /></a>
+          <!-- <img src="images/navbar/spacer.png" width="85" height="1" /> -->
+          <a
+            href="ourwork.html"
+            onmouseout="MM_swapImgRestore()"
+            onmouseover="MM_swapImage('Our Work','','images/navbar/ourwork-hover.png',1)"
+            ><img
+              src="images/navbar/ourwork.png"
+              alt="Our Work"
+              name="Our Work"
+              width="101"
+              height="25"
+              border="0"
+              id="Our Work"
+          /></a>
+          <!-- <img src="images/navbar/spacer.png" width="85" height="1" /> -->
+          <a
+            href="services.html"
+            onmouseout="MM_swapImgRestore()"
+            onmouseover="MM_swapImage('Services','','images/navbar/services-hover.png',1)"
+            ><img
+              src="images/navbar/services.png"
+              alt="Services"
+              name="Services"
+              width="87"
+              height="25"
+              border="0"
+              id="Services"
+          /></a>
+          <!-- <img src="images/navbar/spacer.png" width="85" height="1" />
+          <a
+            href="news.html"
+            onmouseout="MM_swapImgRestore()"
+            onmouseover="MM_swapImage('News','','images/navbar/news-hover.png',1)"
+            ><img
+              src="images/navbar/news.png"
+              alt="News"
+              name="News"
+              width="56"
+              height="25"
+              border="0"
+              id="News"
+          /></a> -->
+          <!-- <img src="images/navbar/spacer.png" width="85" height="1" /> -->
+          <a
+            href="contact.html"
+            onmouseout="MM_swapImgRestore()"
+            onmouseover="MM_swapImage('Image5','','images/navbar/contact-hover.png',1)"
+            ><img
+              src="images/navbar/contact.png"
+              alt="Contact"
+              name="Image5"
+              width="81"
+              height="25"
+              border="0"
+              id="Image5"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <!--Main Content Area -->
+    <div id="maincontent-wrapper">
+      <h2>Our Work</h2>
+
+      <div style="margin-bottom: 30px">
+        <script language="JavaScript">
+          // <!-- Random Image -->
+          showImageFinalMoments();
+        </script>
+        <div class="divFeatureTitle" style="z-index: 3; margin-top: -160px; margin-left: 10px">
+          <h3>Final Moments</h3>
+          <p>Directed by: Nick Leja and Ryan Woodcox</p>
+          <p>Starring: Ryan Woodcox and Diane Dehn</p>
+          <p>
+            <a href="https://www.youtube.com/watch?v=-TvUAOI9_1w" rel="prettyPhoto" title="Watch Final Moments">
+              <img src="images/homefeatures/launchvideo.png" class="launch" width="125" height="14" alt="Final Moments"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 30px">
+        <script language="JavaScript">
+          // <!-- Random Image -->
+          showImageMO_02();
+        </script>
+        <div class="divFeatureTitle" style="z-index: 3; margin-top: -160px; margin-left: 10px">
+          <h3>Modus Operandi Episode 02: The Handler</h3>
+          <p>Directed by: Ryan Woodcox</p>
+          <p>Starring: Nick Leja and Ryan Woodcox</p>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=b_llpEY8niE"
+              rel="prettyPhoto"
+              title="Watch Modus Operandi Episode 02: The Handler"
+            >
+              <img
+                src="images/homefeatures/launchvideo.png"
+                class="launch"
+                width="125"
+                height="14"
+                alt="Modus Operandi Episode 02: The Handler"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 30px">
+        <script language="JavaScript">
+          // <!-- Random Image -->
+          showImageMO_01();
+        </script>
+        <div class="divFeatureTitle" style="z-index: 3; margin-top: -160px; margin-left: 10px">
+          <h3>Modus Operandi Episode 01: Alex</h3>
+          <p>Directed by: Ryan Woodcox</p>
+          <p>Starring: Nick Leja and Collin Moerman</p>
+          <p>
+            <a
+              href="https://www.youtube.com/watch?v=EXAKMo204Gk"
+              rel="prettyPhoto"
+              title="Watch Modus Operandi Episode 01: Alex"
+            >
+              <img
+                src="images/homefeatures/launchvideo.png"
+                class="launch"
+                width="125"
+                height="14"
+                alt="Modus Operandi Episode 01: Alex"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 30px">
+        <script language="JavaScript">
+          // <!-- Random Image -->
+          showImagesilence();
+        </script>
+        <div class="divFeatureTitle" style="z-index: 3; margin-top: -160px; margin-left: 10px">
+          <h3>Silence</h3>
+          <p>Directed by: Nick Leja and Ryan Woodcox</p>
+          <p>Starring: Ryan Woodcox and Nick Leja</p>
+          <p>
+            <a href="http://vimeo.com/41613801" rel="prettyPhoto" title="">
+              <img src="images/homefeatures/launchvideo.png" class="launch" width="125" height="14" alt="Silence"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 30px">
+        <script language="JavaScript">
+          // <!-- Random Image -->
+          showImageRogue();
+        </script>
+        <div class="divFeatureTitle" style="z-index: 3; margin-top: -160px; margin-left: 10px">
+          <h3>Rogue</h3>
+          <p>Directed by: Nick Leja and Ryan Woodcox</p>
+          <p>Starring: Ryan Woodcox and Diane Dehn</p>
+          <p>
+            <a href="http://vimeo.com/19627725" rel="prettyPhoto" title="">
+              <img src="images/homefeatures/launchvideo.png" class="launch" width="125" height="14" alt="Rogue"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 30px">
+        <script language="JavaScript">
+          // <!-- Random Image -->
+          showImageallin();
+        </script>
+
+        <div class="divFeatureTitle" style="z-index: 3; margin-top: -160px; margin-left: 10px">
+          <h3>All In</h3>
+          <p>Directed by: Ryan Woodcox and Nick Leja</p>
+          <p>Starring: Ryan Woodcox and Nick Leja</p>
+          <p>
+            <a href="http://vimeo.com/17107616" rel="prettyPhoto" title="">
+              <img src="images/homefeatures/launchvideo.png" class="launch" width="125" height="14" alt="All In"
+            /></a>
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 30px">
+        <script language="JavaScript">
+          // <!-- Random Image -->
+          showImagesensation();
+        </script>
+
+        <div class="divFeatureTitle" style="z-index: 3; margin-top: -160px; margin-left: 10px">
+          <h3>Sensation - Trailer</h3>
+          <p>Directed by: Ryan Woodcox and Nick Leja</p>
+          <p>Starring: Collin Moerman, Ryan Woodcox, Thera Card and Nick Leja</p>
+          <p>
+            <a href="http://vimeo.com/8689790" rel="prettyPhoto" title="">
+              <img src="images/homefeatures/launchvideo.png" class="launch" width="125" height="14" alt="All In"
+            /></a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="footer">&copy; 2023 Studio Vulpes</div>
+  </body>
+</html>
